@@ -1,0 +1,61 @@
+repositories:
+  autoware/autoware:
+    type: git
+    url: https://gitlab.com/mitsudome-r/autoware.git
+    version: feature/lanelet2
+  autoware/common:
+    type: git
+    url: https://gitlab.com/mitsudome-r/common.git
+    version: feature/point_segment_distance
+  autoware/core_control:
+    type: git
+    url: https://gitlab.com/autowarefoundation/autoware.ai/core_control.git
+    version: master
+  autoware/core_perception:
+    type: git
+    url: https://gitlab.com/autowarefoundation/autoware.ai/core_perception.git
+    version: master
+  autoware/core_planning:
+    type: git
+    url: https://gitlab.com/autowarefoundation/core_planning.git
+    version: master
+  autoware/documentation:
+    type: git
+    url: https://gitlab.com/autowarefoundation/documentation.git
+    version: master
+  autoware/messages:
+    type: git
+    url: https://gitlab.com/mitsudome-r/messages.git
+    version: feature/autoware_map_msgs
+  autoware/simulation:
+    type: git
+    url: https://gitlab.com/autowarefoundation/autoware.ai/simulation.git
+    version: master
+  autoware/utilities:
+    type: git
+    url: https://gitlab.com/mitsudome-r/utilities.git
+    version: feature/vector_map_converter
+  autoware/visualization:
+    type: git
+    url: https://gitlab.com/autowarefoundation/autoware.ai/visualization.git
+    version: master
+  car_demo:
+    type: git
+    url: https://github.com/CPFL/car_demo.git
+    version: e364448fad421cb6244c9f828f978d8d877dcbf9
+  citysim:
+    type: git
+    url: https://github.com/CPFL/osrf_citysim.git
+    version: 53b8483d098999298498854f3795a9f01c5e8828
+  drivers:
+    type: git
+    url: https://gitlab.com/autowarefoundation/autoware.ai/drivers.git
+    version: master
+  lanelet2:
+    type: git
+    url: https://github.com/fzi-forschungszentrum-informatik/Lanelet2.git
+    version: ff2fc7be08fe818b8f15a556ce6e3c2f1b956bf3
+  mrt_cmake_modules:
+    type: git
+    url: https://github.com/KIT-MRT/mrt_cmake_modules.git
+    version: a05035dbfc84d8eb7d0956df62836e4aad7f2dc0
