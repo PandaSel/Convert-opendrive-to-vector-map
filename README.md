@@ -95,6 +95,9 @@ rosrun vector_map_converter opendrive2autowaremap _map_file:=[xodr file] _countr
 ### Use autowaremap2vectormap
 rosrun vector_map_converter autowaremap2vectormap _map_dir:=[autowaremap directory] _save_dir:=[save directory] _create_whitelines:=[True/False] _wayareas_from_lanes:=[True/False]
 
+## Test Procedure [参考](https://gitlab.com/autowarefoundation/autoware.ai/utilities/-/merge_requests/2#converting-from-lanelet2)
+
+
 
 
 
