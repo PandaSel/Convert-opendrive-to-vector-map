@@ -70,8 +70,10 @@ cp ~/catkin_ws/devel/.private/vector_map_converter/lib/vector_map_converter/open
 
 ## Convert map [参考](https://gitlab.com/mitsudome-r/utilities/-/tree/feature/vector_map_converter/vector_map_converter)
 roscore&
+
 ### Use opendrive2autoware_converter
 rosrun vector_map_converter opendrive2autowaremap _map_file:=[xodr file] _country_codes_dir:=~/catkin_ws/src/vector_map_converter/countries/ _save_dir:=[save directory] _resolution:=0.5 _keep_right:=[True/Flase]
+
 ### Use autowaremap2vectormap
 rosrun vector_map_converter autowaremap2vectormap _map_dir:=[autowaremap directory] _save_dir:=[save directory] _create_whitelines:=[True/False] _wayareas_from_lanes:=[True/False]
 
