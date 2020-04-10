@@ -97,6 +97,8 @@ rosrun vector_map_converter autowaremap2vectormap _map_dir:=[autowaremap directo
 
 ## Test Procedure [参考](https://gitlab.com/autowarefoundation/autoware.ai/utilities/-/merge_requests/2#converting-from-lanelet2)
 
+## Autoware Maps Format [参考](https://gitlab.com/autowarefoundation/autoware.ai/utilities/uploads/cf3a0b8082aab657d55bd3ea421a0653/AutowareMapsFormat.pdf)
+
 
 
 
